@@ -1,0 +1,32 @@
+
+
+
+/* Tablet retrato */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+    
+
+}
+
+
+/* Mobile retrato e paisagem */
+@media only screen and (max-width: 767px){
+	
+    
+
+
+}
+
+/* Mobile em paisagem */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+    
+
+}
+
+/* Mobile(mini) retrato e paisagem */
+@media only screen and (max-width: 479px){
+
+
+
+}

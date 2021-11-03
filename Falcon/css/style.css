@@ -1,0 +1,282 @@
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif; 
+}
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+  background-color: #0071d1;
+  border-color: #0071d1;
+  border-radius: 0px;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #048cff;
+}
+
+.affix ~ .container-fluid {
+ position: relative;
+ top: 50px;
+}
+
+#sobre-menu {
+    background-color: #fff;
+    background-image: url(../img/marca_dagua.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 171px;
+}
+
+#sobre-menu img {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+#list-itens {
+    width: 60%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li:hover, .navbar-inverse .navbar-nav>li:focus {
+    text-decoration-line: none;
+    background-color: #048cff;
+    cursor: pointer;
+}
+
+.ativo {
+    background-color: #048cff;
+}
+
+.drop-menu a .ativo {
+    cursor: initial;
+}
+
+
+
+#myNavbar ul {
+    width: 100%;
+}
+
+#myNavbar ul li {
+    width: 25%;
+}
+
+#myNavbar ul li a {
+    text-transform: uppercase;
+}
+
+#myNavbar ul li a span {
+    margin-left: 10px;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    background-color: #0071d1;
+    list-style-type: none;
+    padding: 10px 5px;
+    width: 100%;
+    z-index: 20;
+}
+
+.drop-menu a {
+    color: #fff;
+}
+
+.drop-menu a li {
+    width: 100% !important;
+    padding: 15px 5px;
+}
+
+.drop-menu a li:hover {
+    background-color: #048cff;
+}
+
+.drop-menu a:hover {
+    text-decoration-line: none;
+}
+
+.content {
+    width: 100%;
+    padding: 10% 0;
+    float: left;
+}
+
+.sobre {
+    width: 60%;
+    padding: 2%;
+    margin-left: 20%;
+    float: left;
+}
+
+.texto {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.sobre  .texto h2 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: #0071d1;
+}
+
+.sobre  .texto p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre  .texto .depoimento {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.sobre  .texto .cursive {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+}
+.conteudo {
+    width: 60%;
+    background-color: #ccc;
+    padding: 10% 0;
+    min-height: 500px;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.conteudo h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.transporte, .armazena {
+	width: 70%;
+    margin-left: 15%;
+    float: left;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.transporte h2, .titulo-azl {
+	margin: 7% 0 2% 0;
+    color: #048cff;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.transporte p {
+	font-size: 20px;
+    text-align: justify
+}
+
+.info-texto {
+	font-weight: 100;
+    color: #000;
+    font-size: 25px;
+}
+
+.info-destaque {
+	color: #048cff;
+    font-size: 30px;
+}
+
+.arm_foto {
+	width: 100%;
+	float: left; 
+}
+
+.arm_text {
+	font-size: 20px;
+    text-align: justify;
+    height: 370px;
+}
+
+footer {
+    background-color: #0071d1;
+    padding: 1% 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 992px) {
+    
+    #list-itens {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+    .drop-menu {
+        position: relative;
+        padding: 10px 0px 10px 50px;
+    }
+
+    #myNavbar ul li {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        margin: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+
+    #sobre-menu {
+        background-position: left bottom;
+        background-size: inherit;
+    }
+
+    #sobre-menu img {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    #sobre-menu img {
+        width: 85%;
+    }
+
+    #sobre-menu {
+        height: 300px;
+    }
+
+    .sobre {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}

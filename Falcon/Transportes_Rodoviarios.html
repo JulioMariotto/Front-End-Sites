@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class=" js flexbox flexboxlegacy">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Transportes Rodoviários</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="icon" href="img/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		
+		<div class="container-fluid" id="sobre-menu">
+			<img src="img/Logo.png">
+		</div>
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="168">
+			<div class="container-fluid" id="list-itens">
+				<div class="navbar-header">
+		    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		      			<span class="icon-bar"></span>
+		      			<span class="icon-bar"></span>
+		      			<span class="icon-bar"></span>                        
+		  			</button>
+				</div>
+				<div>
+				  	<div class="collapse navbar-collapse" id="myNavbar">
+				    	<ul class="nav navbar-nav">
+					    	<li><a href="index.html">Início</a></li>
+					    	<li class="ativo"><a data-toggle="#services">Serviços<span class="icon-arrow-down"></span></a>
+            					<ul class="drop-menu" id="services">
+              						<a><li class="ativo">Transportes Rodoviários</li></a>
+            						<a href="Armazenagem.html"><li>Armazenagem</li></a>
+            						<a href="Prestacao_Servicos.html"><li>Prestação de Serviços</li></a>
+            						<a href="Logistica.html"><li>Logística</li></a>
+           						</ul>
+          					</li>
+					    	<li><a data-toggle="#contact">Contato<span class="icon-arrow-down"></span></a>
+            					<ul class="drop-menu" id="contact">
+              						<a href="Contato.html"><li>Contatos e Localização</li></a>
+            						<a href="Trabalhe_Conosco.html"><li>Trabalhe Conosco</li></a>
+            						<a href="Contato_Frete.html"><li>Contato de Frete</li></a>
+            						<a href="Rastreamento.html"><li>Rastreamento</li></a>
+            						<a href="Agregado.html"><li>Cadastro de Agregado</li></a>
+           						</ul>
+          					</li>
+					    	<li><a data-toggle="#erp">ERP<span class="icon-arrow-down"></span></a>
+            					<ul class="drop-menu" id="erp">
+              						<a href="ERP.html"><li>ERP</li></a>
+            						<a href="Area_do_Cliente.html"><li>Área do Cliente</li></a>
+           						</ul>
+          					</li>
+				    	</ul>
+				  	</div>
+				</div>
+			</div>
+		</nav>
+		<section>
+
+		  	<div class="transporte">
+		  		<h2>Transportes Rodoviários</h2>
+		  		<p>Atendemos em todo território nacional no transporte rodoviário, com sistema de rastreamento, veículos de última tecnologia, comunicação com nossos motoristas, garantindo a maior segurança de sua carga e o cumprimento dos prazos de entrega acordados. <strong>Faça uma cotação</strong>.</p>
+				<form class="form-horizontal">
+				  <h2>Dados do Cliente</h2>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="empresa">Empresa:</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="empresa" placeholder="Nome da Empresa">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="cnpj">CNPJ:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="cnpj" placeholder="CNPJ">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="resp">Responsável:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="resp" placeholder="Nome do Resposável">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="tel">Telefone:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="tel" placeholder="Celular/Telefone">
+				    </div>
+				  </div>
+				  <h2>Dados da Operação</h2>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="end_ori">Origem:</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="end_ori" placeholder="Endereço de Origem">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="end_des">Destino:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="end_des" placeholder="Endereço de Destino">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="transp">Transporte:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="transp" placeholder="Produto/Material">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="det">Detalhes:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="det" placeholder="Quantidade/Peso/Medida">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label class="control-label col-sm-2" for="info">Informações:</label>
+				    <div class="col-sm-10"> 
+				      <input type="text" class="form-control" id="info" placeholder="Informações adicionais">
+				    </div>
+				  </div>
+				  <div class="form-group"> 
+				      <button type="submit" class="btn btn-primary">Enviar</button>
+				  </div>
+				</form>
+		  	</div>
+		  	
+		</section>
+		<footer>
+			<p>©2016 Falcon Transportes e Logística do Brasil.	- Todos os direitos reservados.</p>
+		</footer>
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- Scripsts Fim -->
+
+	</body>
+</html>

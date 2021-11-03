@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!-- Marcação de microdados adicionada pelo Assistente de marcação para dados estruturados do Google. -->
+<html class=" js flexbox canvas canvastext no-webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop no-websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
+    <meta charset="utf-8"/>
+    <!-- [if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Rodovia Auto Escola</title>
+    <link rel="icon" href="img/favicon.png"/>    
+
+    <style type="text/css">
+		@font-face {font-family: 'FontAwesome';src: url('fonts/font-awesome/fontawesome-webfont.eot?v=4.3.0');src: url('fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/font-awesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/font-awesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/font-awesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/font-awesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');font-weight: normal;font-style: normal;}
+		body, html{font-family:'Raleway', sans-serif;text-rendering:optimizeLegibility !important;-webkit-font-smoothing:antialiased !important;overflow-x: hidden;}
+		.fa {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;transform: translate(0, 0);}
+		.fa-spinner:before{content: "\f110";}
+		.fa-3x {font-size: 3em;}
+		.fa-fw {width: 1.28571429em;text-align: center;}
+		.fa-pulse{-webkit-animation: fa-spin 1s infinite steps(8);animation: fa-spin 1s infinite steps(8);color:#000;}
+		@-webkit-keyframes fa-spin {0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}100% {-webkit-transform: rotate(359deg);transform: rotate(359deg);}}
+		@keyframes fa-spin {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}100% {-webkit-transform: rotate(359deg);transform: rotate(359deg);}}
+		.overlay{position:fixed;z-index:100;width:100%;height:100%;background-color:#fff}
+		.spinner{width: 100%;text-align: center;margin-top: 20%;}
+		.sr-none{padding: 0;margin: -1px;overflow: hidden;border: 0;font-size: 25px;color: #000;}
+	</style>
+   
+    <!-- [if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif] -->
+
+  </head>
+  <body>
+<span id="_address4" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" itemref="_addressCountry8 _postalCode9">
+<meta itemprop="streetAddress" content="R. Profa. Ernestina de Macedo Souza Cortes, 2356">
+<meta itemprop="addressLocality" content="São José dos Pinhais">
+<meta itemprop="addressRegion" content="PR"></span>
+<meta itemprop="postalCode" content="83050-150">
+<meta itemprop="addressCountry" content="Brasil">
+  	<div class="overlay" style="display: none;">
+		<div class="spinner">
+			<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br/>
+			<span class="sr-none">Carregando...</span>
+		</div>
+	</div>
+    <section id="home-page" data-section="home" style="background:url(../img/site.png);background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;color:#cfcfcf;">
+        <div class="sobrepor">
+        	<div id="fixa"></div>
+            <nav id="home-menu" class="navbar navbar-default">
+                <div class="container cemp">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand logo" href="index.html" style="display: none;">
+                      	<figure><img src="img/logo.png"/></figure>
+                      </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                        <li><a href="#" data-nav-section="service">Serviços</a></li>
+                        <li><a href="#" data-nav-section="rodovia">A Rodovia</a></li>
+                        <li><a href="#" data-nav-section="faq">Dúvidas</a></li>
+                        <li><a href="#" data-nav-section="forma">Contato</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="home" class="container animated">
+            	<div class="col-md-4"></div>
+                <div class="content col-md-4 to-animate fadeInUp animated">
+                	<figure id="rodo"><img id="_image2" itemprop="image" src="img/logo.png"/></figure>
+                    <h1>O mundo todo pode ser seu.</h1>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+    <section id="map" class="animated">
+    	<div class="to-animate fadeInLeft animated">	
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.940291405195!2d-49.176376385701424!3d-25.50703778375297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0efbf10dcb1%3A0x1d3751ae81496ab!2sR.+Profa.+Ernestina+de+Macedo+Souza+Cortes%2C+2356+-+Afonso+Pena%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR!5e0!3m2!1spt-BR!2sbr!4v1501012697471" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+    	</div>
+    </section>
+
+   <div class="container cemp">
+		
+		<section class="row" id="servicos" data-section="service">
+			<div class="col-md-3">
+				<div class="caixa to-animate">
+					<span class="icone-caixa"><img src="img/ren.png" class="icone"/></span>
+					<h3 class="titulo">Renovação de CNH</h3>
+					<p>Renove a sua habilitação sem preocupação, basta trazer a sua CNH e um comprovante de residência!</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="caixa to-animate">
+					<span class="icone-caixa"><img src="img/hab.png" class="icone"/></span>
+					<h3 class="titulo">Primeira Habilitação</h3>
+					<p>Para solicitar a Primeira Habilitação, a lei exige que a pessoa tenha no mínimo 18 anos e saiba ler e escrever.</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="caixa to-animate">
+					<span class="icone-caixa"><img src="img/alt.png" class="icone"/></span>
+					<h3 class="titulo">inclusão de categoria</h3>
+					<p>O condutor deverá estar habilitado na categoria "B" no mínimo há 1 ano.</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="caixa to-animate">
+					<span class="icone-caixa"><img src="img/rec.png" class="icone"/></span>
+					<h3 class="titulo">Curso de Reciclagem</h3>
+					<p>O objetivo do curso é atualizar e desenvolver no condutor atitudes de direção preventiva.</p>
+				</div>
+			</div>
+    	</section>
+
+    	<section class="row cemp" id="rodovia" data-section="rodovia">
+    		
+    		<div class="col-md-12 fundo-cinza to-animate">
+    			<div class="sobre">
+
+					<h1 class="nome-titulo">A Rodovia</h1>
+
+					<p class="historia">
+	    			A Auto Escola Rodovia nasceu em julho de 2008 e contava na época com uma moto e um carro, oferecendo aos seus clientes as categorias A e B. Devido à demanda em 2010 a Rodovia passou a oferecer a categoria D e hoje conta com uma estrutura excelente com veículos de qualidade e profissionais competentes para você ter a melhor experiência.
+	    			</p>
+    			</div>
+    		</div>
+    		<div class="col-md-6 coluna-esq to-animate">
+    			
+    			<div class="col-md-6 padd">
+    				<div class="col-md-12 altura fundo-esc-1 rodovia">
+    					<img src="img/logo.png"/>
+    				</div>
+    				<div class="col-md-12 altura fundo-clr-2">
+		    			<img src="img/ic-01.png" class="tips"/>
+		    			<p>pista coberta para motos</p>
+		    		</div>
+		    		<div class="col-md-12 altura fundo-clr-1">
+		    			<img src="img/ic-02.png" class="tips"/>
+		    			<p>frota de qualidade</p>
+		    		</div>
+		    		<div class="col-md-12 altura fundo-clr-2">
+		    			<img src="img/ic-03.png" class="tips"/>
+		    			<p>preço justo</p>
+		    		</div>
+		    		<div class="col-md-12 altura fundo-clr-1">
+		    			<img src="img/ic-04.png" class="tips"/>
+		    			<p>horários flexiveis</p>
+		    		</div>
+		    		<div class="col-md-12 altura fundo-clr-2">
+		    			<img src="img/ic-05.png" class="tips"/>
+		    			<p>profissionais experientes</p>
+		    		</div>	
+    			</div>
+
+    			<div class="col-md-6 padd">
+    				<div class="col-md-12 altura fundo-esc-1 outras">
+	    				<h2>Outras</h2>
+	    			</div>
+		    		<div class="col-md-12 altura fundo-esc-2">
+		    			<img src="img/ic-06.png" class="tips"/>
+		    			<p>adia<br/>a aula</p>
+		    		</div>		    		
+		    		<div class="col-md-12 altura fundo-esc-1">
+		    			<img src="img/ic-07.png" class="tips"/>
+		    			<p>fronta<br/>antiga</p>
+		    		</div>			    		
+		    		<div class="col-md-12 altura fundo-esc-2">
+		    			<img src="img/ic-08.png" class="tips"/>
+		    			<p>taxas<br/>abusivas</p>
+		    		</div>			    		
+		    		<div class="col-md-12 altura fundo-esc-1">
+		    			<img src="img/ic-09.png" class="tips"/>
+		    			<p>única<br/>turma</p>
+		    		</div>			    		
+		    		<div class="col-md-12 altura fundo-esc-2">
+		    			<img src="img/ic-10.png" class="tips"/>
+		    			<p>vish...</p>
+		    		</div>
+    			</div>
+	    			
+    		</div>
+    		
+    		<div class="col-md-6 coluna-dir to-animate">
+    			<div class="col-md-12 frota">
+    				<a href="img/frente.jpg" class="image-popup"><img src="img/frente.jpg" class="img-responsive hide"/><h2 id="click">Nossa Frota</h2></a>
+    				<a href="img/moto.jpg" class="image-popup"><img src="img/moto.jpg" alt="Image" class="img-responsive hide"/></a>
+    			</div>
+    			<div class="col-md-12 horario">
+    				<div class="conteudo">
+	    				<h2>Nossos Horários</h2>
+	    				<p>Seg. à Sex. das 07:00 às 19:30</p>
+	    				<p>Sáb. das 08:00 às 12:00</p>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section id="slides" class="row cemp">
+    		<div class="col-md-12 cemp to-animate">
+    			
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					 <div class="carousel-inner">
+					    <div class="item active" id="carousel-1">
+					    	<div class="media">
+							    	<img src="img/bety.png" class="media-object"/>
+							  	<div class="media-body">
+							    	<h2 class="media-heading">Elizabety Paes</h2>
+							    	<h3><i>7 anos de experiência</i></h3>
+							    	<p>"Aqui na Rodovia nossos alunos usam carros com direção elétrica ou hidráulica e aprendem com eficiência, além das ótimas condições de pagamentos."</p>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div class="item" id="carousel-2">
+					    	<div class="media">
+							    	<img src="img/silvio.jpg" class="media-object"/>
+							  	<div class="media-body">
+							    	<h2 class="media-heading">Silvio Roberto</h2>
+							    	<h3><i>10 Anos de experiência</i></h3>
+							    	<p>"Eu sempre digo aos meus alunos: 'Encare suas aulas como se fossem seu exame, para que o dia do seu exame seja apenas mais uma aula. '"</p>
+							  	</div>
+							</div>
+					    </div>
+
+					    <div class="item" id="carousel-3">
+					    	<div class="media">
+							    	<img src="img/mauricio.jpg" class="media-object"/>
+							  	<div class="media-body">
+							    	<h2 class="media-heading">Maurício Pereira</h2>
+							    	<h3><i>10 anos de experiência</i></h3>
+							    	<p>"Aqui na rodovia você tira a carteira o quanto antes! Nosso foco é agilidade. Nossos instrutores são altamente treinados para transformar nossos alunos em excelentes motoristas".</p>
+							  	</div>
+							</div>
+					    </div>
+					  </div>
+
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					  	<span class="icon-arrow-left"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					    <span class="icon-arrow-right"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+    	</section>
+
+    	<section id="faq" class="row" data-section="faq">
+			<div class="posicao">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 to-animate">
+							<div class="titulo-principal">
+								<h3 class="titulo-1">está com dúvidas?</h3>
+								<p class="subtitulo">
+									Estas são algumas dúvidas frequentes. Se sua dúvida não estiver aqui escreva para nós clicando <a href="#contact">aqui</a> e nós responderemos o mais rápido possível.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-md-4 to-animate">
+							<div class="panel-group accordion">
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse1">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quais veículos a auto escola disponibiliza?</h4>
+										</div> 
+									</a>
+									<div id="collapse1" class="panel-collapse collapse">
+										<div class="panel-body">
+											 São 6 automóveis sendo eles Celta, Gol e Up, todos com direção elétrica ou hidráulica,
+											 3 motos e 1 ônibus.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse2">
+										<div class="panel-heading">
+											<h4 class="panel-title">Onde fica a pista coberta para as aulas práticas de moto?</h4>
+										</div>
+									</a>
+									<div id="collapse2" class="panel-collapse collapse">
+										<div class="panel-body">
+											 Na rua atrás da auto escola.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse3">
+										<div class="panel-heading">
+											<h4 class="panel-title">Posso iniciar as aulas antes de completar 18 anos, sendo emancipado?</h4>
+										</div>
+									</a>
+									<div id="collapse3" class="panel-collapse collapse">
+										<div class="panel-body">
+											O processo de habilitação inicia-se somente à partir dos 18 anos completos.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse4">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quantas aulas posso fazer por dia?</h4>
+										</div>
+									</a>
+									<div id="collapse4" class="panel-collapse collapse">
+										<div class="panel-body">
+											São 3 aulas de uma categoria, ou então 2 aulas de cada categoria.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 to-animate">
+							<div class="panel-group accordion">
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse5">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quanto tempo demora para tirar a primeira habilitação? </h4>
+										</div>
+									</a>
+									<div id="collapse5" class="panel-collapse collapse">
+										<div class="panel-body">
+											 O prazo estimado é de 90 dias, caso o candidato seja aprovado em todos os exames logo nas primeiras tentativas. Mas isto pode variar de acordo com a agenda do Detran.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse6">
+										<div class="panel-heading">
+											<h4 class="panel-title">A carteira provisória pode ser usada em todo o território nacional?</h4>
+										</div>
+									</a>
+									<div id="collapse6" class="panel-collapse collapse">
+										<div class="panel-body">
+											 Sim. Você pode até mesmo viajar com ela, sem problemas.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse7">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quanto tempo preciso espera para fazer o reteste?</h4>
+										</div>
+									</a>
+									<div id="collapse7" class="panel-collapse collapse">
+										<div class="panel-body">
+											 Para o exame psicotécnico depende do resultado. O consultório indica o tempo para o reteste. Para o reteste de legislação e prático, você pode entrar em contato com a auto escola logo após a reprovação, para que ela reagende o teste no Detran, e isso em geral pode levar 15 dias ou mais.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse8">
+										<div class="panel-heading">
+											<h4 class="panel-title">As taxas do Detran estão inclusas?</h4>
+										</div>
+									</a>
+									<div id="collapse8" class="panel-collapse collapse">
+										<div class="panel-body">
+											Sim, todas as primeiras taxas estão inclusas.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 to-animate">
+							<div class="panel-group accordion">
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse9">
+										<div class="panel-heading">
+											<h4 class="panel-title">De quanto em quanto tempo abrem novas turmas?</h4>
+										</div>
+									</a>
+									<div id="collapse9" class="panel-collapse collapse">
+										<div class="panel-body">
+											 De 15 em 15 dias.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse10">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quanto tempo para iniciar as aulas práticas?</h4>
+										</div>
+									</a>
+									<div id="collapse10" class="panel-collapse collapse">
+										<div class="panel-body">
+											 De 15 a 20 dias.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse11">
+										<div class="panel-heading">
+											<h4 class="panel-title">Quais são os horários das aulas?</h4>
+										</div>
+									</a>
+									<div id="collapse11" class="panel-collapse collapse">
+										<div class="panel-body">
+											 As aulas teóricas possuem 3 horários:
+											 Manhã (08:30 às 11:10),
+											 tarde (14:50 às 17:30),
+											 noite (19:00 às 21:40). As aulas práticas ficam a escolha do aluno, podendo variar das 07:25 às 21:30.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<a data-toggle="collapse" data-parent=".accordion" target="fix" href="#collapse12">
+										<div class="panel-heading">
+											<h4 class="panel-title">Qual é o horário de atendimento?</h4>
+										</div>
+									</a>
+									<div id="collapse12" class="panel-collapse collapse">
+										<div class="panel-body">
+											De segunda à sexta das 7:00 às 19:30 e sábado das 8:00 às 12:00.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="row cemp">
+			<div class="setor">
+				<div class="container">
+					<div class="row center">
+						<div class="col-md-12" id="contador">
+							<div class="col-md-4 text-center to-animate">
+								<span class="rotulo js-counter" data-from="0" data-to="16" data-speed="5000" data-refresh-interval="50">16</span>
+								<span class="sub-rotulo">Profissionais Trabalhando</span>
+							</div>
+							<div class="col-md-4 text-center to-animate">
+								<span class="rotulo js-counter" data-from="0" data-to="16524" data-speed="5000" data-refresh-interval="50">16524</span>
+								<span class="sub-rotulo">Condutores Formados</span>
+							</div>
+							<div class="col-md-4 text-center to-animate">
+								<span class="rotulo js-counter" data-from="0" data-to="5767200" data-speed="5000" data-refresh-interval="50">5767200</span>
+								<span class="sub-rotulo">Quilômetros rodados</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="row cemp" data-section="forma">
+		    <div id="mapa-mundi" style="background-image: url(img/map.png); ">
+				<div class="posicao-map">
+					<div class="container cemp" id="fundo">
+						<div class="row" id="contact">
+							<div class="col-md-12 cemp pd-8 to-animate">
+								<div class="titulo-principal">
+									<h3 class="titulo-1">Entre em contato</h3>
+									<p class="subtitulo">
+										Ainda está com dúvidas ou quer fazer um orçamento? Envie-nos uma mensagem
+									</p>
+									<p class="subtitulo">Ou venha nos visitar na <b>Rua Ernestina de Macedo Souza Cortes 2356 - Afonso Pena - São José dos Pinhais - PR</b></p>
+
+									<p class="subtitulo">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<a href="tel:+554133850757" title="Ligue para nós!">41 3081-3777</a>
+									</p>
+
+									<p class="subtitulo">
+										<i class="fa fa-whatsapp" aria-hidden="true"></i>
+										<a href="tel:+554133850757" title="Ligue para nós!">41 98838-4162</a>
+									</p>
+
+								</div>
+								<div id="contato" name="contact" class="text-left to-animate">
+									<fieldset>
+										<div class="row">
+											<div class="col-md-4">
+												<label for="name"><span class="required">*</span></label>
+												<input type="text" name="name" id="nome" size="30" value="" placeholder="nome" required=""/>
+											</div>
+											<div class="col-md-4">
+												<label for="email"><span class="required"></span></label>
+												<input type="text" name="email" id="email" size="30" value="" placeholder="Email" required=""/>
+											</div>
+											<div class="col-md-4">
+												<label for="phone"></label>
+												<input type="text" name="phone" id="telefone" size="30" value="" placeholder="telefone"/>
+											</div>
+										</div>
+										<div id="mensagem">
+											<label for="message"><span class="required"></span></label>
+											<textarea name="message" id="mensagem" placeholder="mensagem" required=""></textarea>
+										</div>
+										<div id="resultado" class="alert alert-success"></div>
+										<div>
+											<input id="submit" type="submit" name="submit" onclick="enviar()" value="Enviar"/>
+										</div>
+									</fieldset>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	</div>
+
+    <nav id="rodape">
+        <div class="container">
+             <div class="direitos">
+                <p>
+<span id="_postalCode9" itemprop="postalCode">2017</span> © 
+<span itemscope itemtype="http://schema.org/LocalBusiness" itemref="_image2 _telephone3 _address4 _url10">
+<span itemprop="name">Rodovia Auto Escola</span></span>. Todos os 
+<span id="_addressCountry8" itemprop="addressCountry">Direitos</span> Reservados.<br/>Desenvolvido por <a href="https://upagencia.com/" title="Saiba mais sobre a UP Agência!">UP Agência.</a></p>
+                <div class="telefone">
+	            	<i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+554133850757" title="Ligue para nós!">
+<span id="_telephone3" itemprop="telephone">41 3081-3777</span></a>
+	            	<br/>
+	            </div>
+            </div>
+
+            <div class="direitos"> 
+                <ul class="social-media list-inline">
+                    <li><a id="_url10" itemprop="url" href="https://www.facebook.com/RodoviaSJP/" title="Curta a nossa página no Facebook"><span class="fa fa-facebook"></span>/RodoviaSJP</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+  
+
+    <!--  jQuery  -->
+	<script defer="" src="js/jquery.min.js"></script>
+	<!--  Modernizr JS  -->
+	<script defer="" src="js/modernizr-2.6.2.min.js"></script>
+	<!--  Bootstrap  -->
+	<script defer="" src="js/bootstrap.min.js"></script>
+	<!--  Waypoints  -->
+	<script defer="" src="js/jquery.waypoints.min.js"></script>
+	<!--  Counter  -->
+	<script defer="" src="js/jquery.countTo.js"></script>
+	<!--  Stellar Parallax  -->
+	<script defer="" src="js/jquery.stellar.min.js"></script>
+	<!--  Magnific Popup  -->
+	<script defer="" src="js/jquery.magnific-popup.min.js"></script>
+	<script defer="" src="js/magnific-popup-options.js"></script>
+
+    <!--  JavaScript
+    ==================================================  -->
+	<script defer="" src="js/main.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css"/></body></html>

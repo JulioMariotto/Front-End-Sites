@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Quarion-ThinItalic';
+  src: url('../fonts/Quarion-ThinItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/Quarion-ThinItalic.otf')  format('opentype'),
+	     url('../fonts/Quarion-ThinItalic.woff') format('woff'), url('../fonts/Quarion-ThinItalic.ttf')  format('truetype'), url('../fonts/Quarion-ThinItalic.svg#Quarion-ThinItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

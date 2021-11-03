@@ -1,0 +1,41 @@
+/* 
+
+Manutenção
+
+*/
+
+.thumbnail {
+    height: 470px;
+}
+
+.titulo-orca {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 25px 0;
+    color: #dedddd;
+}
+
+.subtitulo-orca {
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px 0;
+    color: #dedddd;
+}
+
+.orca-form {
+  margin-top: 50px;
+}
+
+.orca-form .form-line input {
+    width: 50%;
+    line-height: 2;
+}
+
+.orca-form .form-line textarea {
+    width: 50%;
+    height: 75px;
+    max-width: 55%;
+    max-height: 200px;
+}
+
+.

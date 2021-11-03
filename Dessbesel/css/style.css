@@ -1,0 +1,105 @@
+body {
+  padding-top: 0;
+  background-color: #cbc9c4;
+  color: #a42f31;
+}
+
+p {
+    color: #a42f31;
+}
+
+.navbar {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    border-radius: 4px;
+    background-color: #fff !important;
+}
+
+.nav-link{
+  color: rgba(143, 78, 85, 0.7) !important;
+}
+
+.navbar-brand, .active {
+  color: #8f4e55 !important;
+}
+
+.navbar-brand {
+    width: 15%;
+    padding: 0;
+}
+
+.logo-nav {
+    width: 100%;
+}
+
+.telefone {
+    margin: 0;
+    font-size: 30px;
+    color: #a42f31;
+    font-weight: 600;
+}
+
+.const {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+.const-bloco {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.const-image {
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.const-texto {
+    color: #a42f31;
+}
+
+footer {
+    width: 90%;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 0;
+}
+
+#slide-1 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-01.jpg");
+    background-image:-moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-01.jpg");
+    background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-01.jpg");
+    background-image:-ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-01.jpg");
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/bcg-01.jpg");
+    background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-01.jpg");
+    background-size:cover;
+    background-position:center center;
+    width:100%;
+}
+
+#slide-2 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-02.png");
+    background-image:-moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-02.png");
+    background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-02.png");
+    background-image:-ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-02.png");
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/bcg-02.png");
+    background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-02.png");
+    background-size:cover;
+    background-position:center center;
+    width:100%;
+}
+
+#slide-3 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-03.jpg");
+    background-image:-moz-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-03.jpg");
+    background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-03.jpg");
+    background-image:-ms-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-03.jpg");
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/bcg-03.jpg");
+    background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bcg-03.jpg");
+    background-size:cover;
+    background-position:center center;
+    width:100%;
+}

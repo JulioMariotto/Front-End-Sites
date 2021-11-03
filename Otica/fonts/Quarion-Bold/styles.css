@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Quarion-Bold';
+  src: url('../fonts/Quarion-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Quarion-Bold.otf')  format('opentype'),
+	     url('../fonts/Quarion-Bold.woff') format('woff'), url('../fonts/Quarion-Bold.ttf')  format('truetype'), url('../fonts/Quarion-Bold.svg#Quarion-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

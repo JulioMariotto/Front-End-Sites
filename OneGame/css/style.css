@@ -1,0 +1,449 @@
+body {
+	margin: 0;
+  	position: relative;
+  	font-family: 'Titillium Web', sans-serif; 
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+a, a:hover, a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+.affix {
+  	top:0;
+  	width: 100%;
+  	z-index: 9999 !important;
+}
+
+.espaco-logo {
+	height: 200px;
+	text-align: center;
+	background-image: url("../img/bcg.jpg");
+	background-size: 100% auto;
+}
+
+.logo-menu {
+	width: 50%;
+    overflow: overlay;
+    margin-top: 10px;
+}
+
+.fix-nav {
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: #080808;
+}
+
+.titulo-nav {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.nav-menu {
+	 list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.menu-item {
+    width: 20%;
+    color: #fff;
+    line-height: 55px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #212121;
+    border-top: 2px solid #212121;
+}
+
+.menu-item:hover, .menu-item:focus {
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+}
+
+.menu-item img {
+    width: 18%;
+    margin-right: 10px;
+}
+
+.icone-menu {
+	width: 23%;
+    margin-left: 10px;
+    float: left;
+}
+
+.marca img {
+	width: 80%
+}
+
+.conteudo {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+}
+
+.conteudo-full {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.container-fluid{
+  width: 100%;
+  float: left;
+}
+
+#fundo {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo1 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo1.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo2 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo2.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo3 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo3.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo4 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo4.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo5 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo5.jpg");
+  background-size: 100% 100%;
+}
+
+#fundo6 {
+  height: 500px;
+  text-align: center;
+  background-image: url("../img/fundo6.jpg");
+  background-size: 100% 100%;
+}
+
+.line {
+    margin: 0 auto;
+    max-width: 71.25em;
+    padding: 0 10px 10px 10px;
+    clear: left;
+}
+
+.l-9 {
+    width: 75%;
+}
+
+.titulo {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.3125em 0.625em;
+  font-size: 45px;
+  text-shadow: 3px 3px 3px #000;
+  text-transform: uppercase;
+
+}
+
+.item img {
+  width: 100%;
+  height: 400px;
+}
+
+.col-md-6, .col-md-12 {
+  padding: 0;
+  text-align: center;
+}
+
+.youtube {
+    margin: 10px;
+    padding: 9px 50px;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    font-size: 20px;
+    border-radius: 5em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.41);
+}
+
+.youtube-logo {
+  width: 30%;
+
+}
+
+#contato {
+  background-color: #080808;
+  margin-top: 5%;
+  color: #dedddd;
+  padding-bottom: 5%;
+}
+
+.contato {
+    margin-top: 50px;
+    padding: 10px;
+    color: #dedddd;
+}
+
+.titulo-principal {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+
+.contato-telefone {
+  	font-size: 40px;
+}
+
+.contato-email {
+	font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contato-endereco {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contato-info {
+	font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contato-form {
+
+}
+
+.form-line {
+	margin-bottom: 15px;
+}
+
+.form-line label {
+	width: 100%;
+}
+
+.form-line input {
+	width: 35%;
+	border: 1px solid rgba(193, 193, 193, 0.51);
+  border-radius: 3px;
+  margin-top: 20px;
+  background-color: #ff9c00;
+  color: #fff !important;
+}
+
+.form-line textarea {
+	width: 35%;
+    height: 75px;
+    max-width: 35%;
+    max-height: 150px;
+    border: 1px solid rgba(193, 193, 193, 0.51);
+    border-radius: 3px;
+}
+
+#yellow {
+  background-color: #f79a0c;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 20px;
+    padding: 40px;
+    margin: 0;
+}
+/* Responsivo */
+
+@media screen and (max-width: 991px)
+{
+  .menu-item {
+    font-size: 15px;
+    line-height: 45px;
+  }
+
+  .titulo, .titulo-principal {
+    font-size: 40px;
+  }
+
+  #fundo,
+  #fundo1,
+  #fundo2,
+  #fundo3,
+  #fundo4,
+  #fundo5,
+  #fundo6 {
+    height: 350px;
+  }
+
+}
+
+@media screen and (min-width: 768px)
+{
+  .logo-mobile,
+  .btn-dropdown,
+  .btn-close {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px)
+{
+  .nav-menu {
+    border-top: solid 1px #4a4a4a;
+    display: grid;
+    position: absolute;
+    z-index: 16;
+    background-color: #080808;
+  }
+
+  .menu-item {
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px #0e0e0e;
+    padding: 5px 0;
+    display: none;
+  }
+
+  .menu-item:hover {
+    background-color: #4a4a4a;
+    transition: 1s;
+    font-size: 18px;
+  }
+
+  .menu-item img {
+    width: 7%;
+  }
+
+  .marca {
+    display: none;
+  }
+
+  .mobile-acesso {
+    position: relative;
+    height: 45px;
+  }
+
+  .logo-mobile {
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+  }
+
+  .btn-dropdown {
+    width: 25px;
+    margin: 10px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+  }
+
+  .btn-close {
+    display: none;
+    width: 25px;
+    margin: 10px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+  }
+
+  #fundo,
+  #fundo1,
+  #fundo2,
+  #fundo3,
+  #fundo4,
+  #fundo5,
+  #fundo6 {
+    height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 555px)
+{
+  .espaco-logo {
+    background-size: 100% 100%;
+  }
+
+  .conteudo {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .youtube {
+    font-size: 12px;
+    padding: 9px 15px;
+  }
+
+  .titulo-principal {
+    font-size: 25px;
+  }
+
+  .subtitulo,
+  .contato-endereco,
+  .contato-info,
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .contato-telefone {
+    font-size: 30px;
+  }
+
+  .contato-email {
+    font-size: 20px;
+  }
+
+  #fundo {
+    height: 300px;
+    background-image: url("../img/fundo-mobile.jpg");
+  }
+
+  #fundo1 {
+    height: 300px;
+    background-image: url("../img/fundo1-mobile.jpg");
+  }
+
+  #fundo2 {
+    height: 300px;
+    background-image: url("../img/fundo2-mobile.jpg");
+  }
+
+  .titulo {
+    font-size: 25px;
+  }
+
+}

@@ -1,0 +1,238 @@
+/* 
+
+Consoles
+
+*/
+.ativo {
+  text-decoration: underline;
+}
+
+.titulo-h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 125px 15px 60px 15px;
+    color: #f79a0c;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.17);
+    text-align: center;
+}
+
+.painel {
+
+}
+
+.painel-esq {
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+}
+
+.painel-dir {
+
+}
+
+.list {
+  margin: 10%;
+}
+
+.titulo-csl {
+    color: #666;
+    background: #fff;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: 700;
+    padding: 5px 18px;
+}
+
+.list-csl {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-csl li {
+    border-bottom: 1px solid #f1f1f1;
+    background: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    color: #666;
+}
+
+.list-csl li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.most {
+  margin: 5%;
+}
+
+.selection {
+  width: 100%;
+  float: left;
+  display: none;
+}
+
+.item-csl {
+  padding-bottom: 5%;
+}
+
+.item-csl img {
+  width: 70%;
+}
+
+.titulo-item {
+  font-size: 20px;
+}
+
+.preco-item {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 991px) {
+  
+  .list {
+    margin: 5% 0;
+    width: 100%;
+    float: left;
+  }
+
+  .list-item {
+    width: 20%;
+    float: left;
+    padding: 0 1%;
+  }
+
+  .item-csl {
+    padding-bottom: 5%;
+    width: 25%;
+    float: left;
+  }
+
+  .most {
+    width: 90%;
+    float: left;
+  }
+
+  .painel-esq, .painel-dir {
+    width: 100%;
+    float: left;
+  }
+
+  .item-csl img {
+    width: 100%;
+  }
+
+  .titulo-h1 {
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  
+  .titulo-cls {
+    font-size: 1em;
+  }
+
+  .list-csl li {
+    font-size: 80%;
+  }
+
+  .titulo-h1 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .list-item {
+    width: 50%;
+  }
+
+  .titulo-h1 {
+    font-size: 30px;
+    margin-top: 65px;
+  }
+
+  .preço-item {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .item-csl {
+    width: 50%;
+  }
+
+  .item-csl img {
+    width: 70%;
+  }
+
+  .titulo-item {
+    font-size: 25px;
+  }
+
+  .desc-item {
+    font-size: 18px;
+  }
+
+  .preco-item {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+  .list-item {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .item-csl {
+    width: 100%;
+    margin: 10% 0;
+  }
+
+  .item-csl img {
+    width: 50%;
+  }
+
+  .titulo-csl {
+    font-size: 2em;
+  }
+
+  .list-csl li {
+    font-size: 100%;
+  }
+
+  .titulo-item {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  .desc-item {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .preco-item {
+    font-size: 40px;
+  }
+}

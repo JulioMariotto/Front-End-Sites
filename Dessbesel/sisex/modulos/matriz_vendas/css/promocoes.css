@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+body{
+    display: block;
+    padding: 0%;
+    font-family: 'Muli', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+.mensagem{
+    width: 100%;
+}
+.mensagem .linha{
+    width: 90%;
+    display: block;
+    margin: 5px 10px;
+}
+
+
+.mensagem .linha input[type=file]{
+    display: none;
+}
+.mensagem .linha label,
+.mensagem .linha a{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    background-color: #802215;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 2% 0;
+}
+.mensagem .linha label{
+    margin-right: .9%;
+}
+
+
+section{
+    margin-top: 5%;
+    text-align: center;
+}
+#listagem_avisos{
+    height: auto;
+    min-height: 500px;
+    padding: 9% 1% 1% 1%;
+}
+
+
+.tabela{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+.tabela a{
+    color: #666;
+}
+.tabela a:hover{
+    color: #802215;
+}
+
+.tabela .cabecalho_tabela {
+    margin-top: 5%;
+}
+
+.tabela #listagem_promocoes {
+    margin-bottom: 5%;
+}
+
+.tabela .cabecalho_tabela,
+.tabela #listagem_promocoes{
+    width: 100%;
+    display: table;
+    float: left;
+}
+
+.tabela .cabecalho_tabela .col{
+    display: inline-table;
+    background-color: #802215;
+    color: #FFF;
+    padding: 1% 0;
+    margin: 0;
+    text-align: center;
+}
+.tabela #listagem_promocoes .bloco{
+    border-bottom: 1px solid #EEE;
+}
+.tabela #listagem_promocoes .bloco .col{
+    display: inline-table;
+    padding: 1% 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.tabela .cabecalho_tabela .col-1{
+    width: 10%;
+}
+.tabela .cabecalho_tabela .col-2{
+    width: 45%;   
+}
+.tabela .cabecalho_tabela .col-3{
+    width: 20%;
+}
+.tabela .cabecalho_tabela .col-4{
+    width: 15%;
+}
+
+.tabela .cabecalho_tabela .col-5{
+    width: 10%;
+}
+
+.tabela #listagem_promocoes .bloco .col-1{
+    width: 10%;
+    border-left: solid 1px #eee;
+}
+.tabela #listagem_promocoes .bloco .col-2{
+    width: 43.3%;   
+}
+.tabela #listagem_promocoes .bloco .col-3{
+    width: 20%;
+}
+.tabela #listagem_promocoes .bloco .col-4{
+    width: 15%;
+}
+
+.tabela #listagem_promocoes .bloco .col-5{
+    width: 10%;
+    border-right: solid 1px #eee;
+}
+
+.tabela #listagem_promocoes .excluir,
+.tabela #listagem_promocoes .excluir:hover{
+    color: #FF0000;
+}
+
+
+
+header{
+    position: fixed;
+    display: table;
+    width: 100%;
+    margin: auto;
+    background-color: #FFF; 
+    top: 0;
+    left: 0;
+    padding: .5%;
+    z-index: 10;
+    box-shadow: 0px 0px 5px #CCC;
+    vertical-align: middle;
+}
+
+header a, header a:hover, header a:focus {
+    display: inline-block;
+    background-color: #802215;
+    color: #FFF;
+    padding: .6% 1.5%;
+    margin-right: 1%;
+}
+header a i{
+    padding-right: 1%;
+}
+
+header input{
+    display: inline-block;
+    padding: .6% 1.5%;
+    margin-right: 1%;
+    border: none;
+}
+
+.legenda{
+    float: right;
+    width: 70%;
+    padding: 0;
+    display: block;
+    vertical-align: middle;
+    margin-top: .5%;
+}
+
+.legenda .leg {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.legenda span{
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.azl {
+    background-color: #802215;
+}
+
+.vrd {
+    background-color: #4caf50;
+}
+
+.lrj {
+    background-color: #f0ad4e
+}
+
+.vrm {
+    background-color: #d9534f;
+}
+
+
+
+
+table{
+	width: 98%;
+    padding: 1%;
+    overflow-x: scroll;
+    margin-bottom: 5%;
+}
+table tr{
+
+    overflow-x: scroll;    
+}
+table tr .titulo{
+    height: 25px;
+    text-align: center;
+    background-color: #802215; 
+    color: #FFF;
+    vertical-align: middle;
+}
+table tr td{
+	width: 12%;
+	min-height: 1000px;
+    padding: 1% 0; 
+    overflow-y: auto;
+    border-left: 1px solid #802215;
+    border-bottom: 1px solid #802215;
+    text-align: center;
+    vertical-align: top;
+}
+
+table tr .ultima_td{
+    border-right: 1px solid #802215;
+}
+
+
+.item, .item:hover, .item:focus{
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    padding: 3% 1.5%;
+    margin: 2% auto auto auto;
+    color: #FFF;
+    text-decoration-line: none;
+}
+.item span{
+    display: block;
+    font-size: .7em;
+    text-align: center;
+}
+
+.concluido {
+    background-color: rgba(76, 175, 80, 0.59) !important;
+}
+
+.verde {
+    background-color: #4caf50;
+}
+
+.amarelo {
+    background-color: #f0ad4e;
+}
+
+.vermelho {
+    background-color: #d9534f;
+}
+
+.uk-input {
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #f8f8f8;
+    outline: none;
+}
+
+.no-margin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.descricao {
+    margin: 10px;
+    height: 352px;
+}
+
+.txt-cliente {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Muli', sans-serif !important;
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.txt-desc {
+    text-align: center;
+    font-family: 'Muli', sans-serif !important;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.txt-etp {
+    text-align: left;
+    font-family: 'Muli', sans-serif !important;
+    width: 100%;
+    margin: 0;
+    padding: 5px;   
+}
+
+.env {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background-color: #802215;
+    color: #fff;
+    width: 25%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.no-pointer, .no-pointer:hover, .no-pointer:focus {
+    cursor: default !important;
+    color: #999;
+}
+
+.check {
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 10px 40px 10px 10px;
+    background-color: #ffffff;
+    color: #4caf50;
+    cursor: pointer;
+    width: 100%;
+}
+
+.confirm {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 40px 10px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.alt {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 40px 10px 10px;
+    background-color: #f0ad4e;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.canc {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 40px 10px 10px;
+    background-color: #d9534f;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.btn-center {
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.btn-left {
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.btn-right-outros {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.btn-left-outros {
+    position: absolute;
+    right: 115px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.not {
+    cursor: no-drop;
+}
+
+.icone-botao {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    font-size: 15px;
+    color: #fff !important;
+}
+
+.for-file {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+    bottom: 10px;
+    font-size: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.input-file {
+    position: absolute;
+    width: 50%;
+    left: 10px;
+    bottom: 0px;
+    padding: 5px 5px 5px 35px;
+    font-size: 18px;
+}
+
+.btn-right a:hover, .btn-left a:hover, .btn-right a:focus, .btn-left a:focus, .edit-text:hover, .edit-text:focus, .save-text:hover, .save-text:focus {
+    color: #fff;
+} 
+
+.icon-save-text {
+    position: inherit;
+    z-index: 1;
+    margin-left: 100%;
+    margin-bottom: -2%;
+    float: right;
+    color: #fff;
+    padding: 2px 4px 10px 9px;
+    background-color: #4caf50 !important;
+}
+
+.icon-edit-text {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 130px;
+    color: #fff;
+    background-color: #f0ad4e !important;
+    padding: 2px 4px 10px 9px;
+}
+
+.icon-save-text:hover, .icon-save-text:focus, .icon-edit-text:hover, .icon-edit-text:focus {
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.pull-left {
+    float: left;
+}
+
+.oculta {
+    display: none;
+}
+
+.sucesso {
+    padding: 15px;
+    background-color: rgba(55, 230, 55, 0.48);
+    color: green;
+    border: solid 1px #80bb80;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.falha {
+    padding: 15px;
+    background-color: rgba(234, 127, 127, 0.48);
+    color: red;
+    border: solid 1px #f58c8c;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.item-cabecalho {
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+.select {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+
+

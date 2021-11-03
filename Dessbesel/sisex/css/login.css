@@ -1,0 +1,102 @@
+*,
+*:before,*:after{
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+
+.container{
+	text-align: center;
+	background-color: #d7c6c2;
+	color: #101909;
+	height: 100%;
+	font-family: 'Lato';
+}
+
+.login{
+	width: 30%;
+	border-radius: 3px;
+	margin: auto;
+	padding: 3%; 
+}
+
+.foto-logo {
+	width: 60%;
+	margin-bottom: 30px;
+}
+
+.btn-sub {
+	margin-top: 20px;
+    padding: 5px 50px;
+    background-color: transparent;
+    color: #101909;
+    border: solid 2px #101909;
+    border-radius: 5em;
+    outline: none;
+}
+
+.btn-sub:hover, .btn-sub:focus {
+	background-color: #101909;
+	color: #d7c6c2;
+}
+
+.input__label {
+	color: #101909;
+}
+
+#mensagem_login {
+	display: none;
+	width: 50%;
+	margin: auto;
+	padding: 20px 50px;
+	font-size: 15px;
+	background-color: rgba(208, 20, 20, 0.13);
+    border: solid 1px #d01414;
+    border-radius: 4px;
+    color: #d01414;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 991px)
+{
+	.login {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 767px)
+{
+	.login {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.login {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.login {
+		width: 70%;
+	}
+	#mensagem_login {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.login {
+		width: 80%;
+	}
+
+	#mensagem_login {
+		width: 90%;
+	}
+}

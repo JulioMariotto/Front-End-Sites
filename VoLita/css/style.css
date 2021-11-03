@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+}
+
+.to-animate {
+  opacity: 0;
+}
+
+.animated-item {
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.container {
+  margin-top: 10%;
+  width: 80%;
+}
+
+.navbar-default {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../images/bcg-01.jpg) repeat scroll 0 0;
+  background-size: 20% 170%;
+  border: none;
+  height: 88px;
+  border-radius: 0;  
+}
+
+.navbar-nav > li > a, .navbar-default .navbar-nav > li > a {
+  color: #fff;
+  background-color: transparent;
+  line-height: 2.5;
+  padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ 
+  color: #fff;   
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+#logo-top {
+  width: 12%;
+  margin-left: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 30px;
+}
+
+#banners {
+  margin-top: -20px;
+}
+
+.item img {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+.text-1 {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  text-align: left;
+}
+
+.text-2 {
+  position: absolute;
+    bottom: 17%;
+    right: 5%;
+    text-align: right; 
+}
+
+.text-3 {
+  position: absolute;
+    bottom: 17%;
+    left: 5%;    
+    text-align: left;
+}
+
+.titulo {
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 3px 3px 2px #000;
+}
+
+.title-section {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #670600;
+    margin-bottom: 35px;
+}
+
+.subtitle-section {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.text-section {
+    font-size: 20px;
+    color: #636363;
+    text-align: justify;
+}
+
+#apresenta {
+  width: 100%;
+  padding: 0 15%;
+  float: left;
+  background: linear-gradient(to bottom, rgba(251, 234, 234, 1), rgba(252, 227, 227, 0.0));
+}
+
+#ambiente {
+  width: 100%;
+  float: left;
+}
+
+.foto-1 {
+  width: 252px;
+  height: 252px;
+  margin-top: 7%;
+  float: left;
+  border-radius: 50%;
+  border: 3px solid #e2b900;
+}
+
+.foto-2 {
+  width: 170px;
+  margin-left: -10px;
+  height: 170px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #e2b900;
+}
+
+.foto-3 {
+  width: 220px;
+  height: 220px;
+  margin-left: -29px;
+  margin-top: 3px;
+  float: left;
+  border-radius: 50%;
+  border: 3px solid #e2b900;
+}
+
+#marmita {
+  margin-top: 5%;
+  width: 100%;
+  height: 550px;
+  float: left;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(../images/bcg-02.jpg);
+  background-size: 100%;
+  background-position-y: bottom;
+}
+
+.title-marmita {
+  color: #fff;
+  text-shadow: 4px 0px darkred;
+}
+
+.text-marmita {
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 3px 0px darkred;
+}
+
+#contato {
+  width: 100%;
+  float: left; 
+}
+
+.item-contato {
+  text-align: left;
+  font-size: 20px;
+  padding: 0 30px;
+  margin: 40px 0;
+}
+
+.fa {
+  margin-right: 25px;
+}
+
+#footer {
+  width: 100%;
+  float: left;
+  background: linear-gradient(to top, rgba(251, 234, 234, 1), rgba(252, 227, 227, 0.0));
+}
+
+.footer-text {
+  font-size: 20px;
+  line-height: 2;
+  color: #670600;
+}
+
+.footer-text a {
+  color: #670600 !important;
+}

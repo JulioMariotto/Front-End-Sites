@@ -1,0 +1,153 @@
+body {
+    position: relative; 
+}
+header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	background-color: #222;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	z-index: 16;
+}
+header img {
+	width: 6%;
+	left: 47%;
+	position: absolute;
+}
+.item {
+	height: 220px;
+}
+.affix {
+    top:80px;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0;
+}
+.cliente{
+	background-color: #333;
+}
+.affix + .conteudo-compra {
+    padding-top: 100px;
+}
+
+.lupa {
+	width: 5%;
+	float: left;
+	height: 50px;
+	text-align: center;
+    padding-top: 16px !important;
+}
+.busca {
+    width: 95%;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    float: right;
+}
+.busca-select {
+	width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #cacaca;
+}
+.conteudo-compra{
+	width: 100%;
+    float: left;
+    margin-bottom: 5%;
+}
+.categorias{
+	margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    float: left;
+    background-color: #f7f7f7;
+}
+.cat-produto{
+	width: 100%;
+    float: left;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.produtos{
+	margin-top: 40px;
+    padding: 10px 10px;
+    width: 100%;
+    float: left;
+    border: solid 1px #ddd;
+    border-style: dashed;
+}
+.item-produto{
+	width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.produto{
+	width: 80%;
+    margin-left: 10%;
+    border: 1px solid #eaeaea;
+    padding: 10px 0;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.clip-produto{
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.texto-produto{
+	width: 100%;
+    padding: 10px;
+}
+.nome-produto{
+	font-size: 20px;
+    margin-bottom: 5px;
+}
+.desc-produto{
+	font-size: 13px;
+    margin: 5px 0;
+    color: #666;
+}
+.preco-produto{
+	font-size: 30px;
+    color: #000;
+}
+.btn-comprar{
+	width: 40%;
+    padding: 10px 30px;
+    background-color: #0dbb63;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-cart{
+
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: #222;
+	float: left;
+	padding-top: 40px;
+}
+
+footer p {
+	color: #fff;
+	font-size: 17px;
+}
+
+footer a {
+	color: #fff;
+}
